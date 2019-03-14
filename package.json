@@ -1,0 +1,24 @@
+{
+  "name": "sassme",
+  "version": "1.0.0",
+  "description": "1. Download the css folder and the index html file or...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchsass": "node-sass --output-style expanded myfile.scss output.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlenta/sassme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexlenta/sassme/issues"
+  },
+  "homepage": "https://github.com/alexlenta/sassme#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
